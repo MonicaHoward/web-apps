@@ -48,13 +48,16 @@ table {
 }
 /*END OF CSS RESET*/
 body {
-  background: url(https://static.pexels.com/photos/60636/drums-musical-instrument-music-sound-60636.jpeg);
+  background:
+	linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),
+	 url("https://static.pexels.com/photos/60636/drums-musical-instrument-music-sound-60636.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 .title h1{
+	color: rgba(255,255,255,0.7);
   font-size: 3em;
   padding: 5%;
   text-align: center;
@@ -66,8 +69,8 @@ body {
   text-align: center;
 }
 .key {
-  background: rgba(0,0,0,0.4);
-  border: 4px solid black;
+  background: rgba(255,255,255,0.4);
+  border: 4px solid rgba(255,255,255,0.7);
   border-radius: 3px;
   color: white;
   display: inline-block;
